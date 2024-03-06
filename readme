@@ -1,0 +1,33 @@
+
+    
+                {/* <button className="border border-current px-4 m-5" onClick={()=>{
+                    filterBtn === "veg" ? setfilterBtn("nonveg") : setfilterBtn("veg");
+                    const filter = fill.filter((res) => { 
+                         return res.card.info.itemAttribute.vegClassifier !== filterBtn.toUpperCase() 
+                    })
+                    console.log(filter)
+                    setFills(filter)    
+                
+                }}>{filterBtn}</button> */}
+                {/* <div>
+                 {
+                    fills.map((res) => 
+                    <div className="flex justify-between list-none border border-current m-4" key={res.card.info.id}>
+                        <li className="flex items-center ml-5">{res.card.info.name} - {res.card.info.price /100 || res.card.info.defaultPrice/100}</li>
+                        <div>
+                         <img className="res-logo-img w-[200] h-[150] mr-5" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/" + res.card.info.imageId}/>
+                       </div> 
+                </div>)
+                 }
+                </div> */}
+
+
+                // showItem = {(index === showIndex ? true : false) && index !== prevIndex } 
+                // setShowIndex = {() => {
+                //    setPrevIndex(showIndex)
+                //    return setShowIndex(index)
+                // }} 
+
+
+
+                
